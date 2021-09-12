@@ -8,9 +8,9 @@ scp -r usr\share\rpcd\acl.d\* root@%1:/usr/share/rpcd/acl.d/.
 @echo Restarting the rpcd service...
 ssh root@%1 /etc/init.d/rpcd restart
 
-@eho ==============================
+@echo ==============================
 @echo Configuration successful !!
-@eho ==============================
+@echo ==============================
 PAUSE
 goto :eof
 :usage
