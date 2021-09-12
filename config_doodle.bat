@@ -7,6 +7,8 @@ scp -r etc\config\* root@%1:/etc/config/.
 scp -r usr\share\rpcd\acl.d\* root@%1:/usr/share/rpcd/acl.d/.
 @echo Restarting the rpcd service...
 ssh root@%1 /etc/init.d/rpcd restart
+@echo Configuration successful!
+PAUSE
 goto :eof
 :usage
 @echo Missing argument, Usage: %0 ^<IP Address^>
