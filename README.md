@@ -7,14 +7,14 @@ By default, the Doodle radios only allow JSON-RPC access using the root account.
 ## Windows Installation
 To install, ensure that the Doodle radio is powered on, connected to a LAN and the ip address is known.
 
-1. Download these files in this repo, using either `git clone` or download and extract a zip file from https://github.com/horiz31/doodle_rssi/archive/refs/heads/master.zip  
+1. Download these files in this repo, using either `git clone https://github.com/horiz31/doodle_rssi.git` or download and extract a zip file from https://github.com/horiz31/doodle_rssi/archive/refs/heads/master.zip  
 2. Change to the directory to where you downloaded the files and open a windows command prompt.  
 3. Then, run `config_doodle 172.20.x.y` using the IP address of the doodle you are configuring. This will copy the files to the Doodle and restart the rpcd service.  
 
 ## Linux Installation
 
 To install, ensure that the Doodle radio is powered on, connected to a LAN and the ip address is known.
-1. Download these files in this repo, using either `git clone` or download and extract a zip file from https://github.com/horiz31/doodle_rssi/archive/refs/heads/master.zip  
+1. Download these files in this repo, using either `git clone https://github.com/horiz31/doodle_rssi.git` or download and extract a zip file from https://github.com/horiz31/doodle_rssi/archive/refs/heads/master.zip  
 2. open a terminal window where the files were downloaded and run `make IP=172.20.x.y install` using the IP address of the doodle you are configuring. This will copy the files to the Doodle and restart the rpcd service
 
 ### Files
